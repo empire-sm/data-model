@@ -33,6 +33,9 @@
             "items": {
                 "$ref": "participant.json"
             }
+        },
+        "recording": {
+            "$ref": "recording.json"
         }
     }
 }

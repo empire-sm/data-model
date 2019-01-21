@@ -3,6 +3,21 @@
     "description": "A Take of a Recording of a Sonic Multiplicities Session",
     "type": "object",
     "properties": {
-        "participants": {}
+        "participants": {
+            "type": "array",
+            "items": {
+                "$ref": "participant.json"
+            }
+        },
+        "duration": {
+            "type": "number",
+            "description": "Duration (in seconds) of the take",
+            "default": 720
+        },
+        "takeNumber": {
+            "type": "number",
+            "description": "Take number",
+            "default": 1
+        }
     }
 }

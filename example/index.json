@@ -1,0 +1,115 @@
+{
+  "date": "2019-01-20",
+  "startTime": 1548101578,
+  "stopTime": 1548104578,
+  "location": "Brooklyn, NY",
+  "participants": [
+    {
+      "firstName": "Tyler",
+      "lastName": "Dinner",
+      "instrument": {
+        "category": "Acoustic Guitar",
+        "make": "Takamine Acoustic",
+        "model": "EG351SC"
+      }
+    },
+    {
+      "firstName": "Michael",
+      "lastName": "Dinner",
+      "instrument": {
+        "category": "Acoustic Guitar",
+        "make": "Guild",
+        "model": "F-512"
+      }
+    },
+    {
+      "firstName": "Joseph",
+      "lastName": "Werle",
+      "instrument": {
+        "category": "Acoustic Guitar",
+        "make": "Guild",
+        "model": "F-512"
+      }
+    }
+  ],
+  "recording": {
+    "sessionFile": "/sessions/Sessions/werletyler1202019/werletyler1202019.ardour",
+    "takes": [
+        {
+          "participants": [
+            {
+              "firstName": "Tyler",
+              "lastName": "Dinner",
+              "instrument": {
+                "category": "Acoustic Guitar",
+                "make": "Takamine Acoustic",
+                "model": "EG351SC"
+              }
+            },
+            {
+              "firstName": "Joseph",
+              "lastName": "Werle",
+              "instrument": {
+                "category": "Acoustic Guitar",
+                "make": "Guild",
+                "model": "F-512"
+              }
+            }
+          ],
+          "duration": 736,
+          "takeNumber": 1,
+          "masterUri": "https://grathwohl.me/sessions/01202019.zip"
+        },
+        {
+          "participants": [
+            {
+              "firstName": "Tyler",
+              "lastName": "Dinner",
+              "instrument": {
+                "category": "Acoustic Guitar",
+                "make": "Takamine Acoustic",
+                "model": "EG351SC"
+              }
+            },
+            {
+              "firstName": "Michael",
+              "lastName": "Dinner",
+              "instrument": {
+                "category": "Acoustic Guitar",
+                "make": "Guild",
+                "model": "F-512"
+              }
+            }
+          ],
+          "duration": 662,
+          "takeNumber": 2,
+          "masterUri": "https://grathwohl.me/sessions/01202019.zip"
+        },
+        {
+          "participants": [
+            {
+              "firstName": "Michael",
+              "lastName": "Dinner",
+              "instrument": {
+                "category": "Acoustic Guitar",
+                "make": "Guild",
+                "model": "F-512"
+              }
+            },
+            {
+              "firstName": "Joseph",
+              "lastName": "Werle",
+              "instrument": {
+                "category": "Acoustic Guitar",
+                "make": "Guild",
+                "model": "F-512"
+              }
+            }
+          ],
+          "duration": 736,
+          "takeNumber": 3,
+          "masterUri": "https://grathwohl.me/sessions/01202019.zip"
+        }
+    ]
+  }
+}

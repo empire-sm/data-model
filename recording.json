@@ -2,5 +2,17 @@
     "title": "Recording",
     "description": "A Recording of a Sonic Multiplicities Session",
     "type": "object",
-    "properties": {}
+    "properties": {
+        "sessionFile": {
+            "type": "string",
+            "description": "The Ardour session file path",
+            "default": "/sessions/Sessions/01202019/session.ardour"
+        },
+        "takes": {
+            "type": "array",
+            "items": [
+                "$ref": "take.json"
+            ]
+        }
+    }
 }
