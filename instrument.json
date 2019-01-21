@@ -8,13 +8,16 @@
     ],
     "properties": {
         "category": {
-            "type": "string"
+            "type": "string",
+            "default": "Acoustic Guitar"
         },
         "make": {
-            "type": "string"
+            "type": "string",
+            "default": "Gibson"
         },
         "model": {
-            "type": "string"
+            "type": "string",
+            "default": "Les Paul or whatever"
         },
         "tuning": {
             "type": "string",

@@ -11,18 +11,22 @@
     "properties": {
         "date": {
             "type": "string",
-            "format": "date"
+            "format": "date",
+            "default": "2019-01-20"
         },
         "startTime": {
-            "type": "string",
-            "format": "time"
+            "type": "number",
+            "description": "Unix epoch of the session start time",
+            "default": 1548101578
         },
         "stopTime": {
-            "type": "string",
-            "format": "time"
+            "type": "number",
+            "description": "Unix epoch of the session stop time",
+            "default": 1548104578
         },
         "location": {
-            "type": "string"
+            "type": "string",
+            "default": "Brooklyn, NY"
         },
         "participants": {
             "type": "array",
