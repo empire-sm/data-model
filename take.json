@@ -1,0 +1,8 @@
+{
+    "title": "Take",
+    "description": "A Take of a Recording of a Sonic Multiplicities Session",
+    "type": "object",
+    "properties": {
+        "participants": {}
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "title": "Participant",
+    "description": "A person who participated in a Sonic Multiplicities session.",
+    "type": "object",
+    "properties": {
+        "firstName": {
+            "type": "string",
+            "title": "first name",
+            "default": "Anonymous"
+        },
+        "lastName": {
+            "type": "string",
+            "title": "first name",
+            "default": "Coward"
+        },
+        "instrument": {
+            "title": "Instrument used",
+            "$ref": "instrument.json"
+        }
+    }
+}

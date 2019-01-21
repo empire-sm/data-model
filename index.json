@@ -1,0 +1,34 @@
+{
+    "title": "Session",
+    "description": "A Sonic Multiplicities Session",
+    "type": "object",
+    "required": [
+        "date",
+        "startTime",
+        "stopTime",
+        "location"
+    ],
+    "properties": {
+        "date": {
+            "type": "string",
+            "format": "date"
+        },
+        "startTime": {
+            "type": "string",
+            "format": "time"
+        },
+        "stopTime": {
+            "type": "string",
+            "format": "time"
+        },
+        "location": {
+            "type": "string"
+        },
+        "participants": {
+            "type": "array",
+            "items": {
+                "$ref": "participant.json"
+            }
+        }
+    }
+}

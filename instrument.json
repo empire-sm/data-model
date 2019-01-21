@@ -1,0 +1,24 @@
+{
+    "title": "Instrument",
+    "description": "An instrument used by a Participant in a Sonic Multiplicities Session",
+    "type": "object",
+    "required": [
+        "make",
+        "model"
+    ],
+    "properties": {
+        "category": {
+            "type": "string"
+        },
+        "make": {
+            "type": "string"
+        },
+        "model": {
+            "type": "string"
+        },
+        "tuning": {
+            "type": "string",
+            "default": "standard"
+        }
+    }
+}
